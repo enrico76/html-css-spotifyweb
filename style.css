@@ -6,15 +6,20 @@
 .float-left {
   float: left;
 }
-.no-gutters {
+/* .flex-container {
+  display: flex;
+} */
+/* .no-gutters {
   margin-right: 0;
   margin-left: 0;
 }
 .row.no-gutters , > [class*="col-"] {
     padding-right: 0;
     padding-left: 0;
-  }
+  } */
 #sect-two {
+  position: fixed;
+  bottom: 0;
   width: 100%;
   height: 100px;
   background: green;
