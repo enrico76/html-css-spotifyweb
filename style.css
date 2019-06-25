@@ -6,17 +6,6 @@
 .float-left {
   float: left;
 }
-/* .flex-container {
-  display: flex;
-} */
-/* .no-gutters {
-  margin-right: 0;
-  margin-left: 0;
-}
-.row.no-gutters , > [class*="col-"] {
-    padding-right: 0;
-    padding-left: 0;
-  } */
 #sect-two {
   position: fixed;
   bottom: 0;
@@ -25,8 +14,18 @@
   background: green;
 }
 #col-left {
-  background: blue;
+  background: #161400;
+
 }
 #col-right {
   background: yellow;
+}
+#col-left  a {
+  color: white;
+  margin-bottom: 15%;
+
+}
+#col-left li {
+  margin-bottom: 10%;
+  margin-left: 5%;
 }
