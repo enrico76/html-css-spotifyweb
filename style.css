@@ -9,11 +9,11 @@
 #firstcont {
   width: 100vw;
   height: 100vh;
-  background: blue;
+  /* background: blue; */
 }
 #cont_left {
   width: 20%;
-  height:100%;
+  /* height:100%; */
   background: green;
 }
 .menusx {
@@ -21,17 +21,12 @@
   flex-direction: column;
   background: #161400;
   height: calc(100% - 100px);
-  /* justify-content: space-around; */
-
 }
 #logo {
   width: 70%;
   margin-left: 5%;
   margin-top: 5%;
 }
-/* #lente {
-  flex-grow: 2;
-} */
 .link {
   display: flex;
   flex-direction: column;
@@ -48,15 +43,43 @@
 
 .iconesx {
   color: white;
-  /* flex-shrink: 8; */
 }
 .account {
   color: white;
-  margin-top: 100%;
-
+  /* margin-top: calc(100% - 100px); */
+  padding-bottom: 10%;
 }
 .linewhite {
   border-top: 1px solid white;
   width: 70%;
   margin-left: 15%;
+}
+.cont_right {
+  background-image: linear-gradient(to bottom right, #285A2F , #09140A);
+  height: 100%;
+  overflow: auto;
+}
+.menu_top {
+  display: flex;
+  justify-content: space-around;
+  margin: 35px 200px;
+  font-weight: bold;
+  font-size: 1.1em;
+  flex-wrap: wrap;
+}
+
+.menu_top a {
+  color: grey;
+  text-decoration: none;
+  margin: 5px 10px;
+  white-space:nowrap;
+}
+
+.menu_top a:hover {
+  color: #fff;
+}
+
+#in_evidenza {
+  color: #fff;
+  border-bottom: 2px solid #1ED760;
 }
