@@ -6,26 +6,56 @@
 .float-left {
   float: left;
 }
-#sect-two {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 100px;
+#firstcont {
+  width: 100vw;
+  height: 100vh;
+  background: blue;
+}
+#cont_left {
+  width: 20%;
+  height:100%;
   background: green;
 }
-#col-left {
+.menusx {
+  display: flex;
+  flex-direction: column;
   background: #161400;
+  height: calc(100% - 100px);
+  justify-content: space-around;
 
 }
-#col-right {
-  background: yellow;
-}
-#col-left  a {
-  color: white;
-  margin-bottom: 15%;
-
-}
-#col-left li {
-  margin-bottom: 10%;
+#logo {
+  width: 70%;
   margin-left: 5%;
+  margin-top: 5%;
+}
+/* #lente {
+  flex-grow: 2;
+} */
+.link {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40%;
+  color: white;
+}
+.link > a {
+  color: white;
+}
+.conticon {
+ margin-top: 10%;
+ margin-bottom: 20%;
+}
+
+.iconesx {
+  color: white;
+  /* flex-shrink: 8; */
+}
+.account {
+  color: white;
+
+}
+.linewhite {
+  border-top: 1px solid white;
+  width: 70%;
+  margin-left: 15%;
 }
